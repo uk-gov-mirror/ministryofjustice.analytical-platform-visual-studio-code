@@ -1,4 +1,4 @@
-FROM ghcr.io/ministryofjustice/analytical-platform-cloud-development-environment-base:1.43.7@sha256:7771e7a700447ff5cd1fbdac85bbb296a7a7842c39cb5a6f78788ea242604821
+FROM ghcr.io/ministryofjustice/analytical-platform-cloud-development-environment-base:1.43.8@sha256:f581f745aea8ddacf669af850e290b8945cbc93c86ee7432cad9b97650c2e0e6
 LABEL org.opencontainers.image.vendor="Ministry of Justice" \
       org.opencontainers.image.authors="Analytical Platform (analytical-platform@digital.justice.gov.uk)" \
       org.opencontainers.image.title="Visual Studio Code" \

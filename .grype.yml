@@ -323,3 +323,17 @@ ignore:
       version: "1.16.0"
       location: "/usr/share/code/resources/app/node_modules/axios/package.json"
     reason: "Bundled directly in VS Code's app node_modules; fixed upstream in axios 1.18.0. Requires a newer VS Code release. exp:2026-08-01"
+  - vulnerability: GHSA-4cwx-7wf7-3272
+    package:
+      type: npm
+      name: undici
+      version: "7.28.0"
+      location: "/usr/share/code/resources/app/node_modules/undici/package.json"
+    reason: "Bundled directly in VS Code's app node_modules; fixed upstream in undici 7.29.0. Requires a newer VS Code release. exp:2026-08-01"
+  - vulnerability: GHSA-mwp4-54f8-5fhr
+    package:
+      type: npm
+      name: ip-address
+      version: "10.2.0"
+      location: "/usr/share/code/resources/app/node_modules/ip-address/package.json"
+    reason: "Bundled directly in VS Code's app node_modules; fixed upstream in ip-address 10.3.1. Requires a newer VS Code release. exp:2026-08-01"
