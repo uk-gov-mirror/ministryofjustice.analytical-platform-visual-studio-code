@@ -32,6 +32,8 @@ Open a browser <http://localhost:8080/?folder=/home/analyticalplatform/workspace
 
 ## Managing Software Versions
 
+This repository includes a Copilot prompt for maintenance in [`.github/prompts/`](.github/prompts/). To run it, open Copilot Chat in Visual Studio Code and type `/maintenance`. The prompt updates the Ubuntu base image digest and the pinned APT package versions in the [Dockerfile](./Dockerfile) and prepares a single pull request.
+
 ### Base Image
 
 Generally Dependabot does this, but the following command will return the digest:
