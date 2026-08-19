@@ -1,11 +1,11 @@
-FROM ghcr.io/ministryofjustice/analytical-platform-cloud-development-environment-base:1.43.12@sha256:d6e79da78260a7d162a81ddfe68b292de5546e210e05f34e430690847ca68770
+FROM ghcr.io/ministryofjustice/analytical-platform-cloud-development-environment-base:1.43.13@sha256:1e77889e799734eb218d13c3d65bce7f8193945ddb1ac19c1a888e2008e0a34b
 LABEL org.opencontainers.image.vendor="Ministry of Justice" \
       org.opencontainers.image.authors="Analytical Platform (analytical-platform@digital.justice.gov.uk)" \
       org.opencontainers.image.title="Visual Studio Code" \
       org.opencontainers.image.description="Visual Studio Code image for Analytical Platform" \
       org.opencontainers.image.url="https://github.com/ministryofjustice/analytical-platform-visual-studio-code"
 
-ENV VISUAL_STUDIO_CODE_VERSION="1.127.0-1782814776"
+ENV VISUAL_STUDIO_CODE_VERSION="1.134.0-1787078834"
 
 SHELL ["/bin/bash", "-e", "-u", "-o", "pipefail", "-c"]
 
